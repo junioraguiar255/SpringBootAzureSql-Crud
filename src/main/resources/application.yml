@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://mysqlserver255.database.windows.net:1433;database=mySampleDatabase;user=azureuser@mysqlserver255;password=Junior255@;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: azureuser
+    password: Junior255@
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9191
+
+
